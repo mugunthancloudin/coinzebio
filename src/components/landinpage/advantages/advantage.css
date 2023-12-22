@@ -1,0 +1,31 @@
+.container-cont{
+    background-color: #000000;
+    color: white;
+    padding: 5em;
+    
+}
+.cont-h1{
+    font-size: 65px;
+    font-weight: bolder;
+}
+.cont-h5{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.4em;
+}
+
+
+.container-cont1{
+    padding: 5em;
+
+}
+.conte-h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.conte-h5{
+    font-weight: 350;
+    font-size: 25px;
+    line-height: 1.5em;
+
+}

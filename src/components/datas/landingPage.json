@@ -1,0 +1,34 @@
+{
+  "reason": [
+    {
+      "id": 1,
+      "title": "Reliable Information",
+      "description": "We strive to provide accurate and up-to-date information on utility-based cryptocurrency projects to help you make informed decisions.",
+      "icon": "./images/reason/EVM.svg"
+    },
+    {
+      "id": 2,
+      "title": "User-Centric Approach",
+      "description": "Our platform is designed with you in mind. We aim to make your journey into the world of cryptocurrencies as smooth as possible.",
+      "icon": "./images/reason/scalable.svg"
+    },
+    {
+      "id": 3,
+      "title": "Security",
+      "description": "We take security seriously. Your data and privacy are of utmost importance to us.",
+      "icon": "./images/reason/interoperable.svg"
+    },
+    {
+      "id": 4,
+      "title": "Diverse Content",
+      "description": "From project profiles to educational resources, we offer a wide range of content to cater to both newcomers and experienced crypto enthusiasts.",
+      "icon": "./images/reason/poa.svg"
+    },
+    {
+      "id": 5,
+      "title": "Expert Analysis",
+      "description": "CoinZeb combines expertise in cryptocurrency and blockchain, offering in-depth market analyses and strategic insights.",
+      "icon": "./images/reason/open-source.svg"
+    }
+  ]
+}

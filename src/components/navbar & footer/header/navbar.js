@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import "./navbar.css";
-import logo from "../../../components/assets/landingPage/navbar/aimLogo.svg"
+import logo from "../../assets/landingPage/navbar/Coinzeb.png"
 
 function Scrollbar() {
   const scrollToTop = () => {
@@ -20,14 +20,15 @@ function Scrollbar() {
             onClick={scrollToTop}
             style={{ cursor: "pointer" }}
             className="fw-bold  text-white fst-italic"
-          >CoinZeb
-            {/* <img
+          >
+            <img
               src={logo}
-              width="50"
-              height="50"
+              width="70"
+              height="70"
               className="d-inline-block align-top"
               alt="AIM Logo"
-            /> */}
+            />
+            {/* <h6>CoinZeb</h6> */}
             
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" className="text-white" />

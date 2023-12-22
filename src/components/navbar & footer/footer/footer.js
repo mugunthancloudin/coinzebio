@@ -6,8 +6,7 @@ import facebook from "../../assets/landingPage/footer/facebook.png";
 import twitter from "../../assets/landingPage/footer/twitter.png";
 import instagram from "../../assets/landingPage/footer/instagram.png";
 import robo from "../../assets/landingPage/footer/footerRobo.json";
-import logo from "../../../components/assets/landingPage/navbar/aimLogo.svg";
-// import brandLogo from "../../assets/Header & footer/header/medichainlogo.svg";
+import logo from "../../assets/landingPage/navbar/Coinzeb.png"
 
 export default function Footer() {
   return (
@@ -34,12 +33,21 @@ export default function Footer() {
 
         <hr className="mt-5" /> */}
         <div className="row text-center ">
-          <div className="col-lg-3">
-            <h4 className="fw-bold mt-3">Products & Solutions</h4>
+          <div className="col-lg-3 align-items-center justify-content-center d-flex">
+
+          <img
+              src={logo}
+              width="125"
+              height="125"
+              className="d-inline-block align-top"
+              alt="AIM Logo"
+            />
+
+            {/* <h4 className="fw-bold mt-3">Products & Solutions</h4>
             <p className="mt-5">Cosmos SDK</p>
             <p>CometBFT</p>
             <p>IBC Protocol</p>
-            <p>CosmWasm</p>
+            <p>CosmWasm</p> */}
           </div>
 
           <div className="col-lg-3 mt-3">
